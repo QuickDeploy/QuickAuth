@@ -25,6 +25,8 @@ docker service rm qa-redis
 
 rm -rf /data/qa/
 
+sleep 5
+
 docker rmi redis:5
 docker rmi mysql:5.7
 docker rmi quickdeploy/quickauth:v2.0

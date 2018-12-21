@@ -24,6 +24,6 @@ bash "${DIR}/swarm_start_web.sh"
 
 echo "Please wait until services started"
 
-echo "Use 'docker service ps qa-' to see the status"
+echo "Use 'docker service ls | grep qa-' to see the status"
 
 echo "After started, visit http://127.0.0.1/install.php to setup the system"
